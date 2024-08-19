@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+.covering {
+  background-color: rgb(35, 79, 94);
+  color:white
+}
+
+.covering:hover {
+  background-color: black;
+  transition: 2s;
+}

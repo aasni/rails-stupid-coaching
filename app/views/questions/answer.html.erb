@@ -1,0 +1,24 @@
+<div class="container mt-4">
+<h1>Stupid Coaching</h1>
+
+
+<figure class="border-start border-5 p-2">
+  <blockquote class="blockquote">
+    <p><%= params[:answer] %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="Source Title">You</cite>
+  </figcaption>
+</figure>
+
+<figure class="border-start border-5 p-2 bg-warning-subtle">
+  <blockquote class="blockquote">
+    <p><%= @answer %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="Source Title">Coach</cite>
+  </figcaption>
+</figure>
+
+<a href="/ask" style="text-decoration:none">ask a new question</a>
+</div>
